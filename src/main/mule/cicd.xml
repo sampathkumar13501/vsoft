@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="faaaa1d4-c776-47e0-9aaf-85728fad7bc1" config-ref="HTTP_Listener_config" path="/cicd"/>
 		<logger level="INFO" doc:name="Logger" doc:id="97094ba3-691b-4118-994d-948d2d4793cf" message="first loggerr"/>
 		<set-payload value="first setpayload" doc:name="Set Payload" doc:id="cc8c11ed-8098-42cc-b217-2c922ca94682" />
+		<set-payload value="second set payload" doc:name="Set Payload" doc:id="76fe11f8-5ffa-4292-96ac-5dd09718d8b5" />
 	</flow>
 </mule>
